@@ -868,32 +868,32 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@prodo/babel-plugin@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@prodo/babel-plugin/-/babel-plugin-0.0.7.tgz#5e6c2cf871c0459bbd2372f2816c27a7e361386a"
-  integrity sha512-RoCYDBNyuiUHNL6l9Epk8WN/Q/OBiZfdT5yawSY5w1SKVWxLe6wf+UIkjSU4LDYQHgXKK0pq/klMNPoaqcf7Jw==
+"@prodo/babel-plugin@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@prodo/babel-plugin/-/babel-plugin-0.1.0.tgz#7a7842272ef20c65c6e9f930a9e18886b0699cf0"
+  integrity sha512-CEm5f+EIIMzL6JfgZ069UbGIKvEQkkjjIRDcoSn+TlfDk65QrPcLQ3tkSg/yGfCq/fq7BzLpPf8ZjMIbw+6EGw==
   dependencies:
     "@babel/core" "^7.5.5"
     "@babel/types" "^7.5.5"
 
-"@prodo/core@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@prodo/core/-/core-0.0.7.tgz#f40e43420a25995bf6a19dd7a1c22bb9af9fd192"
-  integrity sha512-LTpy51M3PGZG6q7JNLtTeoMyzyTngKR1hOSsl3xfZtUxf6/Lp2knttfVkoFwzSV59Eu7eXpn9jKWPz8yFFbcgQ==
+"@prodo/core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@prodo/core/-/core-0.1.0.tgz#921201cfc79bfa0244ec3bd9c06a14dbb9e6d369"
+  integrity sha512-JenJrRx7Uj6z2bzFvs1ygpomTkk6P6VYgNm7GnyO7rBq3Nv6+4n3aTxSv2cw2XxUSH+MFDWr5CwBz+eI8Eul6A==
   dependencies:
     immer "^3.2.0"
     react "^16.9.0"
     react-dom "^16.9.0"
 
-"@prodo/logger@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@prodo/logger/-/logger-0.0.7.tgz#ad8efd923674bca2ae345da05940f59d8d6eecf2"
-  integrity sha512-n/8ijs04mjFFvjpvuHnC7qATLkPDSL3LUz3rs+nPmlIafhoRaNkRu3DbdCRRKV6/3Oixk/MLtIE/DOfKJa3IgA==
+"@prodo/logger@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@prodo/logger/-/logger-0.1.0.tgz#91d55263742e5567e736f81b8e58ee22554a9b25"
+  integrity sha512-xIU47Rwf9GIOsQgAERkH1Ku8jJGgAb86KhiH+DrZwpYAZjM1ISVgiHiNE3JcVxac/Nis0aQUy2gtHYHL0JwyMg==
 
-"@prodo/route@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@prodo/route/-/route-0.0.11.tgz#b562fa20340ebfe0fc6e1a1d3a4fe887723088b5"
-  integrity sha512-+ayFzW/L3b8PEJNbP7FiKBmfULu4RjpdHZ6wfXL/Fdjc0SqO3XwXt1HmZvejJ1Pi9JImpAe5s47YfeMjOJPEqg==
+"@prodo/route@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@prodo/route/-/route-0.1.0.tgz#1cef8e68149cc3d84584b3f7c0c54f64f7aed2e7"
+  integrity sha512-dvd1rTkH13UMhiZQgvOGC1zh6jLKAsQCqZPWdsFaEERiWRo06vJiSuvqqaCsYiP9cy1jIwY23i1bhgCgjylaGA==
   dependencies:
     history "^4.9.0"
     path-to-regexp "^3.1.0"
