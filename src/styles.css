@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #00E3A0;
+  color: #333;
   transition: opacity 150ms ease-in-out;
 
   &:hover {
@@ -48,4 +48,5 @@ header {
 
 .logo {
   max-width: 20rem;
+  margin-bottom: 2rem;
 }
