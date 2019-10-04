@@ -19,5 +19,10 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "@prodo/eslint-plugin"]
+  "plugins": ["react", "@prodo/eslint-plugin"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
