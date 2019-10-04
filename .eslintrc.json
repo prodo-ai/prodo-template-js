@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react",
+    "plugin:@prodo/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@prodo/eslint-plugin"]
+}
