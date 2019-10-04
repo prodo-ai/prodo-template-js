@@ -95,7 +95,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: "eslint-loader",
         options: {
-          failOnError: true,
+          failOnError: config.failOnError,
         },
       },
       {
