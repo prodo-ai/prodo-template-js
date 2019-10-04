@@ -6,10 +6,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "rm -rf .cache build dist lib",
-    "test": "jest",
     "start": "NODE_ENV=development webpack-dev-server --config webpack.config.js --mode=development --history-api-fallback --hot",
-    "build": "rimraf dist && NODE_ENV=production webpack -p"
+    "build": "rimraf dist && NODE_ENV=production webpack -p",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "clean": "rm -rf .cache build dist lib",
+    "test": "jest"
   },
   "dependencies": {
     "@prodo/core": "^0.1.0",
@@ -25,11 +26,17 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "@prodo/babel-plugin": "^0.1.0",
+    "@prodo/eslint-plugin": "^0.1.1",
     "@testing-library/react": "^9.1.4",
+    "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-react": "^7.15.1",
     "file-loader": "^4.2.0",
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "^3.0.0",
