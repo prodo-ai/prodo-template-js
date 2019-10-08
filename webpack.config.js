@@ -4,6 +4,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
+const webpack = require("webpack");
 
 const APP_PATH = path.resolve(__dirname, "src");
 const PUBLIC_PATH = path.resolve(__dirname, "public");
@@ -112,6 +113,7 @@ module.exports = {
   },
 
   plugins: [
+    new webpack.EnvironmentPlugin(["NODE_ENV"]),
     new HtmlWebpackPlugin({
       inject: true,
       template: path.join(PUBLIC_PATH, "index.html"),
